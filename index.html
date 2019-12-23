@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eryn</title>
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/HTML/12.18/style.css">
+    <!-- FontAwesome(폰트 아이콘) -->
+    <script src="https://kit.fontawesome.com/0590a6f078.js" crossorigin="anonymous"></script>
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- bx slider css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- bx slider JS-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- 상품 데이터-->
+    <!-- 사용자 자바스크립트 -->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header id="main_header">
+        <div class="container">
+            <h1>
+                <a href="./index.html">
+                    <img src="images/eryn_logo2.png" alt="eryn_logo">
+                </a>
+            </h1>
+            <!-- 검색창 -->
+            <form id="search_box">
+                <input type="text" placeholder="eryn 겨울코트 특가">
+                <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <!-- 유틸리티 메뉴 -->
+            <nav id="util_menu">
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-store"></i></a>
+            </nav>
+        </div><!-- end container -->
+    </header>
+
+    <!-- 메인 gnb -->
+    <nav id="main_gnb">
+        <div class="container">
+            <button id="category_btn">
+                <i class="fas fa-bars"></i>
+                <span>카테고리</span>
+            </button>
+
+            <ul>
+                <li><a href="#">브랜드 소개</a></li>
+                <li><a href="#">매장</a></li>
+                <li><a href="#">캠페인</a></li>
+                <li><a href="#">전체보기</a></li>
+                <li><a href="#">SPECIAL SHOP*</a></li>
+            </ul>
+        </div><!-- end container-->
+    </nav>
+    <nav id="category">
+        <div class="container">
+            <!-- end cotainder -->
+            <dl>
+                <dt><a href="#">탑</a></dt>
+                <dd><a href="#">티셔츠</a></dd>
+                <dd><a href="#">블라우스</a></dd>
+                <dd><a href="#">셔츠</a></dd>
+                <dd><a href="#">니트</a></dd>
+            </dl>
+            <dl>
+                <dt><a href="#">팬츠</a></dt>
+                <dd><a href="#">캐주얼</a></dd>
+                <dd><a href="#">포멀</a></dd>
+                <dd><a href="#">데님</a></dd>
+            </dl>
+        </div>
+    </nav>
+
+    <!-- 메인 배너 -->
+    <section id="main_banner">
+        <div class="inner">
+            <div class="bx-slider">
+                <img class="img_responsive" src="images/main_banner_1.jpg" alt="1" title="여기에 배너 설명글을 작성">
+                <img class="img_responsive" src="images/main_banner_2.jpg" alt="2">
+                <img class="img_responsive" src="images/main_banner_3.jpg" alt="3">
+            </div>
+        </div><!-- end inner -->
+    </section>
+
+    <!-- 메인 콘텐츠 -->
+    <section id="new">
+        <div class="container">
+            <!-- end container -->
+            <h2>NEW</h2>
+            <ul class="item_list">
+                <!-- 275 x 445 -->
+                <li>
+                    <a href="#">
+                        <img src="images/item_list_1.jpg" alt="페이크 레더 점퍼">
+                        <span class="title">Jumper</span>
+                        <span class="name">페이크 레더 점퍼</span><br>
+                        <span>665,000원</span>
+                    </a>
+                </li>
+                <!-- 275 x 445 -->
+                <li>
+                    <a href="#">
+                        <img src="images/item_list_2.jpg" alt="숄리브리스 블랙 탑">
+                        <span class="title">Top</span>
+                        <span class="name">슬리브리스 블랙 탑</span><br>
+                        <span>465,000원</span>
+                    </a>
+                </li>
+                <!-- 275 x 445 -->
+                <li>
+                    <a href="#">
+                        <img src="images/item_list_3.jpg" alt="블랙 데님 자켓">
+                        <span class="title">Pants</span>
+                        <span class="name">블랙 데님 자켓</span><br>
+                        <span class>355,000원</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 서브 배너 -->
+    <section id="sub_banner">
+        <div class="container">
+            <!-- end container -->
+            <h2>Eryn Recommand</h2>
+            <ul>
+                <li>
+
+                    <!-- 이미지는 배경으로 처리 -->
+                    <a href="#">
+                        <img src="images/sub_banner.jpg" alt="서브 배너">
+                    </a>
+                </li>
+            </ul>
+    </section>
+
+    <section id="main_footer">
+        <h1><a href="index.html"><img src="images/eryn_logo.jpg" alt="에린"></a></h1>
+        <p>(주)에린 &nbsp; | &nbsp; 사업자등록번호 : 120-81-26337 &nbsp; | &nbsp; 대표이사 : 김형종</p>
+        <address>주소 : 서울시 강남구 도산대로 523 한섬빌딩</address>
+        <p>TEL : 1800-5700 &nbsp; ㅣ 팩스 : 02-516-7028</p>
+        <i class="fab fa-instagram"></i><i class="fab fa-youtube"></i>
+        <p class="copyright">Copyright © 2017 Eryn KOREA INC. ALL RIGHTS RESERVED</p>
+    </section>
+
+
+    <!-- 팝업 창-->
+    <div class="popup">
+        <h2>Event</h2>
+        <p>#eryn #애린 #캐시미어코트 #cashmerecoat</p>
+        <div class="close_box">
+            <button id="btn_close">닫기</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
